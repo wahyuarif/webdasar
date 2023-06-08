@@ -1,0 +1,27 @@
+:root {
+    --navbar-bg-color: #E6E9E2;
+    --navbar-text-color: #263428;
+    --navbar-text-color-focus: #2a5531;
+    --navbar-bg-contrast: #b8c0ae;
+
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* header {} */
+header,
+nav li {
+    display: inline;
+}
+
+nav li {
+    list-style-type: none;
+    margin-right: 20px;
+}
